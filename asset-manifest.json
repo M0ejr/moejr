@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moejr/static/css/main.37934e29.css",
+    "main.js": "/moejr/static/js/main.cafa252e.js",
+    "static/js/787.03817c64.chunk.js": "/moejr/static/js/787.03817c64.chunk.js",
+    "index.html": "/moejr/index.html",
+    "main.37934e29.css.map": "/moejr/static/css/main.37934e29.css.map",
+    "main.cafa252e.js.map": "/moejr/static/js/main.cafa252e.js.map",
+    "787.03817c64.chunk.js.map": "/moejr/static/js/787.03817c64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37934e29.css",
+    "static/js/main.cafa252e.js"
+  ]
+}
