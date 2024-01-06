@@ -8,6 +8,7 @@ export const Bio = {
   //    "",
    github: "https://github.com/m0ejr",
    linkedin: "",
+   email: "mailto:mo3jrr@gmail.com",
    twitter: "https://twitter.com/m0ejr"
  };
  
