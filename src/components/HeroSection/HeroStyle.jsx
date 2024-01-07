@@ -156,10 +156,10 @@ export const TextLoop = styled.div`
 
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
 
   @media (max-width: 640px) {
-    font-size: 20px;
+    font-size: 15px;
   }
 `;

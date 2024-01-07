@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import { Container, Wrapper, Title, CardContainer, ToggleButtonGroup, ToggleButton, Divider, Desc } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
@@ -11,6 +11,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
+        <Desc>Here are the projects that I created using the skills mentioned above.</Desc>
         <ToggleButtonGroup>
           {toggle === 'all' ? (
             <ToggleButton key="all" active value="all" onClick={() => setToggle('all')}>

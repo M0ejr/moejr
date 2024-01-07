@@ -4,6 +4,8 @@ import TwitterIcon from '@mui/icons-material/X';
 import { Bio } from '../../data/constants';
 import { GitHub } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -25,27 +27,9 @@ const FooterWrapper = styled.footer`
 `;
 
 
-const Nav = styled.nav`
-  width: 100%;
-  max-width: 800px;
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    text-align: center;
-    font-size: 12px;
-  }
-`;
-
 const NavLink = styled.a`
 color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
-  font-size: 1rem;
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
@@ -81,13 +65,8 @@ const Copyright = styled.p`
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterWrapper>
-        <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          {/* <NavLink href="">#</NavLink> */} {/* for later, maybe */}
-        </Nav>
+      <FooterWrapper>        
+        <NavLink href="#"><KeyboardArrowUpIcon style={{fontSize: '35px'}} /></NavLink>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           {/* <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon> */}
@@ -95,7 +74,7 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.email} target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Built and designed by Moejr
+          Ⓒ 2024 Built and designed by Moejr
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
