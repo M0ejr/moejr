@@ -55,15 +55,6 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
-      // {
-      //   name: "GraphQl",
-      //   image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-      // },
       {
         name: "Node",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -82,11 +73,6 @@ export const skills = [
         name: "PostgreSQL",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
-      // {
-      //   name: "MongoDB",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      // },
       {
         name: "Bootstrap",
         image:
@@ -117,11 +103,6 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
       },
-      // {
-      //   name: "Firebase",
-      //   image: 
-      //     "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
     ]
   }
 ];
@@ -142,13 +123,14 @@ export const skills = [
        "Express",
        "Docker",
        "PostgreSQL",
+       "Redis",
        "Clarifai API",
        "Bcrypt",
        "Knex"
      ],
      category: "machine learning",
      github: "https://github.com/M0ejr/BrainScape",
-     webapp: "https://brainscape-o01p.onrender.com/",
+     webapp: "https://brain-scape.vercel.app/",
    },
    {
      id: 1,
