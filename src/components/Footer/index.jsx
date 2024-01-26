@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import TwitterIcon from '@mui/icons-material/X';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Bio } from '../../data/constants';
 import { GitHub } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
@@ -69,7 +69,7 @@ const Footer = () => {
         <NavLink href="#"><KeyboardArrowUpIcon style={{fontSize: '35px'}} /></NavLink>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          {/* <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon> */}
+          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GitHub /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.email} target="display"><EmailIcon /></SocialMediaIcon>
         </SocialMediaIcons>

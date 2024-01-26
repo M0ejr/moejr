@@ -7,7 +7,7 @@ export const Bio = {
   //  description:
   //    "",
    github: "https://github.com/m0ejr",
-   linkedin: "",
+   linkedin: "https://www.linkedin.com/in/mohammed-638623219/",
    email: "mailto:mo3jrr@gmail.com",
    twitter: "https://twitter.com/m0ejr"
  };
@@ -92,11 +92,6 @@ export const skills = [
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/102017/logo_0.png?ahfjomQ0VKp4nkiMoEHmHxXQZGYBHdpj&itok=Hr4b70AV"
       },
       {
         name: "Postman",
