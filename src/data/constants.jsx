@@ -108,8 +108,7 @@ export const skills = [
      id: 0,
      title: "BrainScape",
      date: "November 2023",
-     description:
-       "Discover the power of facial recognition with BrainScape, a sleek full-stack web app. Utilizing Clarifai's cutting-edge API, BrainScape employs machine learning to deliver swift and accurate face detection. Securely sign in, upload images, and explore detailed results effortlessly.",
+     description: "This is a sophisticated full-stack web application designed for seamless performance and reliability. The robust backend, powered by Node.js and Express.js, leverages a real SQL database with PostgreSQL, ensuring efficient data management. Containerization using Docker and Docker-compose adds scalability and ease of deployment. Session storage is enhanced through Redis, optimizing user interactions. The integration of Clarifai API for facial recognition brings cutting-edge technology to the forefront. The sleek and responsive frontend is crafted with React.js, enriched by frameworks like Reactstrap, delivering an engaging user experience. Together, these technologies culminate in an innovative and feature-rich application that excels in both functionality and user interface.",
      image:
        "https://github.com/M0ejr/BrainScape/blob/master/src/components/BrainScape.png?raw=true",
      tags: [
@@ -132,7 +131,7 @@ export const skills = [
      title: "Robofriends Cards",
      date: "December 2023",
      description:
-       "Robofriends, a React app with Redux magic, brings you a deck of robot cards. Real-time API updates keep it fresh. Use the simple search to find your metal buddy by name. Explore effortlessly.",
+       "This React.js application, fortified with TypeScript and Redux, stands as a testament to modern web development practices. Employing Redux for state management ensures a streamlined and predictable data flow. The app seamlessly interacts with a mock API, retrieving user information dynamically and presenting it in visually appealing cards. Each user is accompanied by unique robot images, adding a delightful touch to the user interface. The combination of React.js, TypeScript, and Redux creates a powerful synergy, resulting in a responsive, well-organized, and visually engaging application.",
      image:
        "https://github.com/M0ejr/Robofriends/blob/master/src/Robofriends.png?raw=true",
      tags: ["TypeScript", "React", "Redux"],
@@ -145,7 +144,7 @@ export const skills = [
      title: "Background Generator",
      date: "September 2023",
      description:
-       "a JavaScript web app that lets you design custom gradients effortlessly. Choose your colors, witness the gradient magic, and grab the ready-to-use CSS code on the spot. Elevate your design game with personalized backgrounds.",
+       "This is a simple web tool made with HTML, CSS, and JavaScript. It helps you pick colors and gives you the CSS code, making it easy to use in your projects. Just click, copy, and paste for a quick color boost.",
      image:
        "https://github.com/M0ejr/Background-Generator/blob/main/BackgroundGenerator.png?raw=true",
      tags: [
