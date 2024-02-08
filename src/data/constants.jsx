@@ -110,7 +110,7 @@ export const skills = [
      date: "November 2023",
      description: "This is a sophisticated full-stack web application designed for seamless performance and reliability. The robust backend, powered by Node.js and Express.js, leverages a real SQL database with PostgreSQL, ensuring efficient data management. Containerization using Docker and Docker-compose adds scalability and ease of deployment. Session storage is enhanced through Redis, optimizing user interactions. The integration of Clarifai API for facial recognition brings cutting-edge technology to the forefront. The sleek and responsive frontend is crafted with React.js, enriched by frameworks like Reactstrap, delivering an engaging user experience. Together, these technologies culminate in an innovative and feature-rich application that excels in both functionality and user interface.",
      image:
-       "https://github.com/M0ejr/BrainScape/blob/master/src/components/BrainScape.png?raw=true",
+       "https://github.com/M0ejr/BrainScape/blob/master/src/components/brainScape.png?raw=true",
      tags: [
        "React",
        "Node",
