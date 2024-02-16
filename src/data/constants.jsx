@@ -133,7 +133,7 @@ export const skills = [
      description:
        "This React.js application, fortified with TypeScript and Redux, stands as a testament to modern web development practices. Employing Redux for state management ensures a streamlined and predictable data flow. The app seamlessly interacts with a mock API, retrieving user information dynamically and presenting it in visually appealing cards. Each user is accompanied by unique robot images, adding a delightful touch to the user interface. The combination of React.js, TypeScript, and Redux creates a powerful synergy, resulting in a responsive, well-organized, and visually engaging application.",
      image:
-       "https://github.com/M0ejr/Robofriends/blob/master/src/Robofriends.png?raw=true",
+       "https://github.com/M0ejr/Robofriends/blob/master/robofriends.png?raw=true",
      tags: ["TypeScript", "React", "Redux"],
      category: "web app",
      github: "https://github.com/M0ejr/Robofriends",
