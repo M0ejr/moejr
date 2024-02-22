@@ -23,7 +23,7 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
   position: absolute;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   top: 0;
   right: 0;
   bottom: 0;
@@ -40,7 +40,7 @@ export const HeroBg = styled.div`
 
   @media (max-width: 960px) {
     justify-content: center;
-    padding: 0 16px; 
+    padding: 0 16px;
   }
 `;
 
@@ -83,7 +83,7 @@ export const HeroRightContainer = styled.div`
   width: 100%;
   display: flex;
   order: 2;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   gap: 12px;
 
   @media (max-width: 960px) {

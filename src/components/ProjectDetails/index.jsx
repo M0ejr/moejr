@@ -1,7 +1,7 @@
-import { CloseRounded } from '@mui/icons-material';
-import { Modal } from '@mui/material';
-import React from 'react';
-import styled from 'styled-components';
+import { CloseRounded } from "@mui/icons-material";
+import { Modal } from "@mui/material";
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
@@ -47,7 +47,7 @@ const Date = styled.div`
   margin: 2px 6px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary};
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
 `;
@@ -109,7 +109,9 @@ const Button = styled.a`
   padding: 12px 16px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary};
-  ${({ dull, theme }) => dull && `
+  ${({ dull, theme }) =>
+    dull &&
+    `
     background-color: ${theme.bgLight};
     color: ${theme.text_secondary};
     &:hover {
@@ -130,7 +132,10 @@ const Button = styled.a`
 const index = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
   return (
-    <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
+    <Modal
+      open={true}
+      onClose={() => setOpenModal({ state: false, project: null })}
+    >
       <Container>
         <Wrapper>
           <CloseRounded
@@ -152,8 +157,12 @@ const index = ({ openModal, setOpenModal }) => {
           </Tags>
           <Desc>{project?.description}</Desc>
           <ButtonGroup>
-            <Button dull href={project?.github} target='new'>Source Code</Button>
-            <Button href={project?.webapp} target='new'>See Live</Button>
+            <Button dull href={project?.github} target="new">
+              Source Code
+            </Button>
+            <Button href={project?.webapp} target="new">
+              See Live
+            </Button>
           </ButtonGroup>
         </Wrapper>
       </Container>
