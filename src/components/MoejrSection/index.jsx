@@ -10,7 +10,7 @@ import {
   TextLoop,
   Title,
   Span,
-} from "./HeroStyle";
+} from "./MoejrStyle";
 import logo from "../images/M13.png";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
