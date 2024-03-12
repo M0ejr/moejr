@@ -33,7 +33,7 @@ const Wrapper = styled.div`
 `;
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (

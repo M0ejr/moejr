@@ -1,17 +1,17 @@
 import React from "react";
-import HeroBgAnimation from "../HeroBgAnimation";
+// import HeroBgAnimation from "../HeroBgAnimation";
 import {
   HeroContainer,
-  HeroBg,
+  // HeroBg,
   HeroLeftContainer,
-  Img,
-  HeroRightContainer,
+  // Img,
+  // HeroRightContainer,
   HeroInnerContainer,
   TextLoop,
   Title,
   Span,
 } from "./MoejrStyle";
-import logo from "../images/M13.png";
+// import logo from "../images/M13.png";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -19,9 +19,9 @@ const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
-        <HeroBg>
+        {/* <HeroBg>
           <HeroBgAnimation />
-        </HeroBg>
+        </HeroBg> */}
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
             <Title>{Bio.name}</Title>
@@ -37,9 +37,11 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
           </HeroLeftContainer>
-          <HeroRightContainer id="Right">
+          {/* I will add this back whenever I need it */}
+
+          {/* <HeroRightContainer id="Right">
             <Img src={logo} alt="M-logo" />
-          </HeroRightContainer>
+          </HeroRightContainer> */}
         </HeroInnerContainer>
       </HeroContainer>
     </div>
@@ -47,3 +49,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+// I removed the profile photo and the animations for some time.

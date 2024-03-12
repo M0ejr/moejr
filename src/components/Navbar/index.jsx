@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavbarContainer, Span, NavLogo } from "./NavbarStyledComponent";
+import { Nav, NavbarContainer, Span, NavLogo} from "./NavbarStyledComponent";
 import { TbSquareRoundedLetterM } from "react-icons/tb";
 
 const Navbar = () => {
@@ -8,12 +8,11 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="#">
           <a
-            href="/"e
+            href="/"
             style={{
               display: "flex",
               alignItems: "center",
               color: "white",
-              cursor: "pointer",
               textDecoration: "none"
             }}
           >
