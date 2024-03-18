@@ -6,15 +6,6 @@ export const HeroContainer = styled.div`
   justify-content: center;
   position: relative;
   padding: 20px 5px;
-
-  /* @media (max-width: 960px) {
-    padding: 500px 50px;
-  }
-
-  @media (max-width: 640px) {
-    padding: 32px 16px;
-  } */
-
   z-index: 1;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
