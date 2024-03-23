@@ -154,3 +154,15 @@ export const Span = styled.span`
     font-size: 15px;
   }
 `;
+
+export const Description = styled.span`
+  color: rgb(182, 182, 182);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+
+
+  @media (max-width: 640px) {
+    font-size: 13px;
+  }
+`;

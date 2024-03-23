@@ -10,6 +10,7 @@ import {
   TextLoop,
   Title,
   Span,
+  Description
 } from "./MoejrStyle";
 // import logo from "../images/M13.png";
 import Typewriter from "typewriter-effect";
@@ -36,6 +37,7 @@ const HeroSection = () => {
                 />
               </Span>
             </TextLoop>
+            <Description>{Bio.description}</Description>
           </HeroLeftContainer>
           {/* I will add this back whenever I need it */}
 

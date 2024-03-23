@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Moejr",
   roles: ["Morning breathes knowledge,", "night exhales puzzles."],
-  //  description:
-  //    "",
+   description:
+     `This portfolio showcases the projects I have created as well as those I am currently working on, highlighting the experiences gained throughout my journey`,
   github: "https://github.com/m0ejr",
   linkedin: "https://www.linkedin.com/in/mohammed-638623219/",
   email: "mailto:mo3jrr@gmail.com",
@@ -88,6 +88,11 @@ export const skills = [
         name: "Postman",
         image:
           "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+      },
+      {
+        name: "Firebase",
+        image:
+          "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Ffirebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png&f=1&nofb=1&ipt=b89541de3d650b37d3044cca56604f300598516603988701cd7995a417e0a30a&ipo=images",
       },
     ],
   },
