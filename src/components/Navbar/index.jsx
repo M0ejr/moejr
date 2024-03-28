@@ -9,6 +9,7 @@ const Navbar = () => {
         <NavLogo to="#">
           <a
             href="/"
+            translate="no"
             style={{
               display: "flex",
               alignItems: "center",
@@ -16,7 +17,7 @@ const Navbar = () => {
               textDecoration: "none"
             }}
           >
-            <TbSquareRoundedLetterM size={"3rem"} /> <Span>Moejr</Span>
+            <TbSquareRoundedLetterM size={"3rem"} /> <Span translate="no" >Moejr</Span>
           </a>
         </NavLogo>
       </NavbarContainer>
