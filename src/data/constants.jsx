@@ -1,8 +1,7 @@
 export const Bio = {
   name: "Moejr",
   roles: ["Morning breathes knowledge,", "night exhales puzzles."],
-   description:
-     `This portfolio showcases the projects I have created as well as those I am currently working on, highlighting the experiences gained throughout my journey`,
+  description: `This portfolio showcases the projects I have created as well as those I am currently working on, highlighting the experiences gained throughout my journey`,
   github: "https://github.com/m0ejr",
   linkedin: "https://www.linkedin.com/in/mohammed-638623219/",
   email: "mailto:mo3jrr@gmail.com",
@@ -29,6 +28,11 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "Redux",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -41,11 +45,6 @@ export const skills = [
         name: "Jest.js",
         image:
           "https://logowik.com/content/uploads/images/jest-js7858.logowik.com.webp",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
         name: "Node",
@@ -101,6 +100,34 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: "Closed Source (E-Commerce App *For Sale*)",
+    date: "March 2024",
+    description: `Designed and developed a comprehensive e-commerce platform using React, Redux, TypeScript, and Firebase.
+                  Designed and developed a seperate React application, an Admin Panel to handle and manage operations.
+                  Integrated payment gateways (PayTabs and Cash on Delivery) to facilitate secure transactions.
+                  Implemented user authentication with Firebase Authentication and managed product data with Firestore Database.
+                  Developed serverless backend logic using Node.js with Netlify Functions for scalable application architecture.
+                  Utilized SendGrid for automated email notifications and improved user engagement with Progressive Web App (PWA) features.
+                  `,
+    image: "",
+    tags: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Firebase",
+      "Firestore",
+      "styled-components",
+      "PayTabs",
+      "Cash On Delivery",
+      "SendGrid",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 1,
     title: "BrainScape",
     date: "November 2023",
     description:
@@ -123,7 +150,7 @@ export const projects = [
     webapp: "https://brain-scape.vercel.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Robofriends Cards",
     date: "December 2023",
     description:
@@ -136,7 +163,7 @@ export const projects = [
     webapp: "https://m0ejr.github.io/Robofriends/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Background Generator",
     date: "September 2023",
     description:
