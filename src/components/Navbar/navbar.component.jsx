@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavbarContainer, Span, NavLogo} from "./NavbarStyledComponent";
+import { Nav, NavbarContainer, Span, NavLogo } from "./navbar.styles";
 import { TbSquareRoundedLetterM } from "react-icons/tb";
 
 const Navbar = () => {
@@ -13,11 +13,12 @@ const Navbar = () => {
             style={{
               display: "flex",
               alignItems: "center",
-              color: "white",
-              textDecoration: "none"
+              color: "black",
+              textDecoration: "none",
             }}
           >
-            <TbSquareRoundedLetterM size={"3rem"} /> <Span translate="no" >Moejr</Span>
+            <TbSquareRoundedLetterM size={"3rem"} />{" "}
+            <Span translate="no">Moejr</Span>
           </a>
         </NavLogo>
       </NavbarContainer>

@@ -1,14 +1,15 @@
-import { Link as LinkR } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.div`
-  background-color: #001535;
+  background-color: #fcfcfc;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
   position: sticky;
+  border-bottom: 1px solid #acacac;
   top: 0;
   z-index: 10;
   @media (max-width: 960px) {
@@ -26,7 +27,7 @@ export const NavbarContainer = styled.div`
   max-width: 1200px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(Link)`
   padding: 0 6px;
   display: flex;
   justify-content: start;
@@ -41,4 +42,5 @@ export const Span = styled.div`
   padding: 0 4px;
   font-weight: bold;
   font-size: 18px;
+  color: #000;
 `;
